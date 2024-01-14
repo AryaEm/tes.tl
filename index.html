@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width-device-width,initial-scale-1">
+    <meta name="description" content="web portofolio-tailwind">
+    <meta name="author" content="codepolitan">
+    <title>AryaEm</title>
+    <link rel="stylesheet" type="text/css" href="output.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <style>
+        .gradient-bottom {
+            background-image: linear-gradient(to bottom right, #8A2BE2, #7fffd4);
+        }   
+
+        .gradient {
+            background-image: linear-gradient(to bottom left, #000080, #FF33B2);
+        }
+        .grad {
+            background-image: linear-gradient(to bottom left, #f3ffd5, #99d5ff);
+        }
+    </style>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+</head> 
+
+<body>
+
+    <script
+        src="https://unpkg.com/vue@3/dist/vue.global.js">
+    </script>
+
+    <section class="w-screen mx-auto px-6 grad">
+        <nav class="flex flex-wrap p-3 justify-between">
+            <div class="flex flex-shrink 0 mr-4 ">
+                <img src="image/jetapng.png" class="w-50 mr-2 h-10">
+            </div>
+            <div class="block lg:hidden">
+                <a
+                    class="flex items-center px-3 py-2 rounded border border-indigo-400 text-indigo-500 hover:text-indigo-700 hover:border-indigo-700">
+                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="w-full block flex-grow lg:flex  lg:items-center lg:w-auto">
+                <div class="text-sm lg:flex-grow rounded">
+                    <a href="#home" class="block lg:inline-block lg:mt text-gray-800 hover:text-gray-900 text-lg mr-6 ">
+                        Home
+                    </a>
+                    <a href="#about"
+                        class="block lg:inline-block lg:mt text-gray-800 hover:text-gray-900 text-lg mr-4 ">
+                        About me
+                    </a>
+                    <a href="#project"
+                        class="block lg:inline-block lg:mt text-gray-800 hover:text-gray-900 text-lg mr-4 ">
+                        Project
+                    </a>
+                    <a href="#contact"
+                        class="block lg:inline-block lg:mt text-gray-800 hover:text-gray-900 text-lg mr-4">
+                        Contact me
+                    </a>
+                </div>
+                <!-- href="https://aryaa.vercel.app/" -->
+                <div><a class="inline-block text-sm px-4 py-2 ronded text-gray-800 border border-gray-600 hover:border-transpaent hover:text-white hover:bg-indigo-700 mt-4 lg:mt-0"  onclick="error()">
+                        Button 1
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Home -->
+    </section>
+    <section id="home" class="w-screen mx-auto py-3 gradient ">
+        <div class="px-16 py-8 text-black text-center">
+            <h1 class="w-full text-4xl mt-10 font-bold mx-auto mr-2">Home</h1>
+            <div class="mb-4">
+                <div class="bg-indigo-500 w-1/4 opacity-75 rounded mx-auto h-1 "></div>
+            </div>
+            <h2 class="text-3xl font-bold mb-2 cursor-pointer " onclick="halo()">
+                Hi, I'm Arya.
+            </h2>
+            <h3 class="text-lg mb-2">
+                Siswa SMk Telkom Malang
+            </h3>
+            <div class="w-full">
+                <div class="px-4 py-4 ">
+                    <img src="image/fotoku.jpg" class="shadow-lg rounded-full max-w-full mx-auto w-48">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="grid grid-cols-1 md:grid-cols-3 bg-white py-2 px-2 md:py-6 md:px-6 m-16 rounded-lg">
+            <div class="max-w-sm shadow-lg px-4 py-4 bg-gray-400 m-4 text-center">
+                <i class="bi bi-instagram text-black-500 fa-3x mb-6"></i>
+                <div class="p-4 ">
+                    <p class="font-bold text-lg md:text-xl mb-6">Instagram</p>
+                    <p class="text-grayy-600 text-base mb-2"><a
+                            href="https://instagram.com/aryaa.em?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">aryaa.em</a></a>
+                    </p>
+                    <hr class="text-gray-600 mb-2">
+                </div>
+                <div class="px-2 py-4">
+                    <button
+                        class="bg-gray-500 hover:bg-gray-600 text-white fobt-bold px-4 py-2 shadow-lg rounded-tl-lg"><a
+                            href="https://instagram.com/aryaa.em?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">></a></button>
+                </div>
+            </div>
+
+
+            <div class="max-w-sm shadow-lg px-4 py-4 bg-gray-400 m-4 text-center">
+                <i class="bi bi-github text-black-500 fa-3x mb-6"></i>
+                <div class="p-4 ">
+                    <p class="font-bold text-lg md:text-xl mb-6">Github</p>
+                    <p class="text-grayy-600 text-base mb-2"><a href="https://github.com/AryaEm">AryaEm</a></a></p>
+                    <hr class="text-gray-600 mb-2">
+                </div>
+                <div class="px-2 py-4">
+                    <button
+                        class="bg-gray-500 hover:bg-gray-600 text-white fobt-bold px-4 py-2 shadow-lg rounded-tl-lg"><a
+                            href="https://github.com/AryaEm">==></a></button>
+                </div>
+            </div>
+
+            <div class="max-w-sm shadow-lg px-4 py-4 bg-gray-400 m-4 text-center">
+                <i class="bi bi-spotify text-black-500 fa-3x mb-6"></i>
+                <div class="p-4 ">
+                    <p class="font-bold text-lg md:text-xl mb-6">Spotify</p>
+                    <p class="text-grayy-600 text-base mb-2"><a
+                            href="https://open.spotify.com/user/31ny25fko7qrrzcdhzq7frs6n6ca?si=69495a143970446a">Aryaa</a></a>
+                    </p>
+                    <hr class="text-gray-600 mb-2">
+                </div>
+                <div class="px-2 py-4">
+                    <button
+                        class="bg-gray-500 hover:bg-gray-600 text-white font-bold px-4 py-2 shadow-lg rounded-tl-lg"><a
+                            href="https://open.spotify.com/user/31ny25fko7qrrzcdhzq7frs6n6ca?si=69495a143970446a">></a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Me -->
+    <section id="about" class="w-screen mx-auto py-16 bg-gray-400">
+        <div class="flex flex-wrap">
+            <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+                <img src="image/coffeeLaptop.jpg" class="max-w-full mt-8 rounded-lg shadow-lg">
+            </div>
+
+            <div class="w-full md:w-5/12 ml-auto mr-auto rounded-lg px-4 text-black h-40">
+                <div class="md:pr-12">
+                    <h1
+                        class="w-full my-2 text-3xl mt-8 bg-blue-500 font-bold rounded-lg text-center text-gray-900 h-16">
+                        A little bit about me </h1>
+                    <p class="mt-4 text-lg text-gray-800">My name is Arya Maulana, I'm from Indonesia, and now I'm
+                        studying in high school grade 1 at Smk Telkom Malang.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Project -->
+    <section id="project" class="container mx-auto py-8 bg-gray-400">
+        <div class="text-center mb-8">
+            <h1 class="w-full my-2 text-5xl font-bold text-gray-700">My Project/Website</h1>
+            <div class="mb-4">
+                <div class="h-1 mx-auto bg-pink-400 w-1/3 opacity-75 py-0 my-0 rounded"></div>
+            </div>
+            <p class="text-lg m-4 text-gray-700">my latest project : </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 m-8">
+            <div class="bg-gray-100 px-4 py-4 m-2 shadow-lg rounded ">
+                <div class="px-2 py-2 text-center ">
+                    <p class="font-bold text-xl mb-2 text-gray-700 ">Blom ada</p>
+                </div>
+                <img src="image/jettt.jpg" class="w-full rounded-lg ">
+                <div class="px-2 py-4 text-center">
+                    <button
+                        class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 shadow-md rounded-tr-lg rounded-bl-lg">Detail
+                    </button>
+                </div>
+            </div>
+
+            <div class="bg-gray-100 px-4 py-4 m-2 shadow-lg rounded ">
+                <div class="px-2 py-2 text-center ">
+                    <p class="font-bold text-xl mb-2 text-gray-700 ">blom ada</p>
+                </div>
+                    <img src="image/jettt.jpg" class="w-full rounded-lg ">
+                        <div class="px-2 py-4 text-center">
+                            <button
+                                class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 shadow-md rounded-tr-lg rounded-bl-lg">Detail
+                            </button>
+                        </div>
+            </div>
+
+            <div class="bg-gray-100 px-4 py-4 m-2 shadow-lg rounded ">
+                <div class="px-2 py-2 text-center ">
+                    <p class="font-bold text-xl mb-2 text-gray-700 ">blom ada</p>
+                </div>
+                    <img src="image/jettt.jpg" class="w-full rounded-lg ">
+                    <div class="px-2 py-4 text-center">
+                        <button
+                            class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 shadow-md rounded-tr-lg rounded-bl-lg">Detail
+                        </button>
+                    </div>
+            </div>
+
+            <div class="bg-gray-100 px-4 py-4 m-2 shadow-lg rounded ">
+                <div class="px-2 py-2 text-center ">
+                    <p class="font-bold text-xl mb-2 text-gray-700 ">blom ada</p>
+                </div>
+                <img src="image/jettt.jpg" class="w-full rounded-lg ">
+                <div class="px-2 py-4 text-center">
+                    <button
+                    class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 shadow-md rounded-tr-lg rounded-bl-lg">Detail
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- <section class="w-screen mx-auto py-3 gradient-bottom">
+        <div class="bg-white py-16 px-16 md:py-8 md:px-8 m-32 rounded-lg">
+            <p class="mt-4 text-lg text-gray-800">contact me</p>
+            </div>
+        </div>
+    </section> -->
+
+        <!-- Kontak me -->
+    <section id="contact" class="w-screen mx-auto py-3 gradient-bottom">
+        <div class="bg-white py-16 px-16 md:py-8 md:px-8 m-8 md:m-32 rounded-lg shadow-lg">
+          <h2 class="text-3xl font-semibold text-gray-800 mb-4">Hubungi Saya</h2>
+          <div class="flex items-center space-x-4">
+            <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>
+            </svg>
+            <p class="text-gray-800">Nomor Telepon: <a href="tel:+6281804748037" class="text-blue-600">+62 81804748037</a></p>
+          </div>
+          <div class="flex items-center space-x-4 mt-2">
+            <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>
+            </svg>
+            <p class="text-gray-800">Email: <a href="mailto:ary4maulanaa@gmail.com" class="text-blue-600">ary4maulanaa@gmail.com</a></p>
+          </div>
+        </div>
+      </section>
+    <!-- Kontak me -->
+
+    <section class="w-screen mx-auto py-2 mt-4 mb-2 ">
+        <div class="text-center ">
+            <a href="https://www.instagram.com/aryaa.em/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" class="text-indigo-700 hover:text-black p-2 ">
+                <i class="fa-2x fab fa-instagram"></i>
+            </a>
+                <a href="ttps://github.com/AryaEm" class="text-indigo-700 hover:text-black p-2 ">
+                    <i class="fa-2x fab fa-github"></i>
+                </a>
+            <a href="https://open.spotify.com/user/31ny25fko7qrrzcdhzq7frs6n6ca?si=69495a143970446a" class="text-indigo-700 hover:text-black p-2 ">
+                <i class="fa-2x fab fa-spotify"></i>
+            </a>
+        </div>
+            <div class="text-center mt-4 text-grayy-600">Design with Tailwindcss</div>
+
+
+    </section>
+
+</body>
+
+<script>
+
+    function halo() {
+        swal({
+            icon: 'warning',
+            title: 'Halo bang'
+        })
+    }
+
+    function detail() {
+        location.href = "https://aryaa.vercel.app/"
+
+    }
+
+    function button() {
+        location.href = "https://aryaa.vercel.app/"
+    }
+
+    function error() {
+        swal({
+            icon: 'warning',
+            title: 'gataw'
+        })
+    }
+
+</script>
+
+</html>
